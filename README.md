@@ -33,7 +33,7 @@ python -m venv myenv
 Once the virtual environment is created, activate it using the following commands:
 ```
 Windows:
-```
+```plaintext
 myenv\Scripts\activate
 ```
 4. Install Dependencies
@@ -89,7 +89,6 @@ If decryption is performed successfully, the original plaintext will be displaye
 ```plaintext
 Decrypted plaintext (CBC mode): YAZEEDKAMEL
 ```
-Code Explanation
 Symmetric Encryption (DES):
 We use the DES algorithm from the pycryptodome library for encryption.
 The plaintext is padded and encrypted in different modes (ECB, CBC, CFB, OFB).
