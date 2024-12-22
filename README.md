@@ -31,27 +31,26 @@ Create a virtual environment using the following command:
 python -m venv myenv
 3. Activate the Virtual Environment
 Once the virtual environment is created, activate it using the following commands:
-
+```
 Windows:
-bash
-Copy code
+```
 myenv\Scripts\activate
+```
 4. Install Dependencies
 Install the necessary dependencies using pip. You can install the required libraries by running the following command in the terminal:
 
-bash
-Copy code
+```plaintext
 pip install pycryptodome
 This library provides the cryptographic functions needed for the encryption and decryption processes.
-
+```
 How to Use the Test Suite
 Once the environment is set up and dependencies are installed, you can run the test suite by executing the test_all.py script.
 
-bash
-Copy code
+```plaintext
 python test_all.py
+```
 The test suite will guide you through different cryptographic operations. The available options include:
-
+```
 How to Use the Test Suite
 Symmetric Encryption (DES)
 
@@ -83,14 +82,13 @@ MAC values for message authentication
 Hybrid encryption results with RSA and DES
 For example, an encryption in CBC mode might output:
 
-plaintext
-Copy code
+```plaintext
 Ciphertext (CBC mode): f554107b78a47132cfe4ffcb9c2e86df417cd50362a66c4c
 If decryption is performed successfully, the original plaintext will be displayed:
-
-plaintext
-Copy code
+```
+```plaintext
 Decrypted plaintext (CBC mode): YAZEEDKAMEL
+```
 Code Explanation
 Symmetric Encryption (DES):
 We use the DES algorithm from the pycryptodome library for encryption.
