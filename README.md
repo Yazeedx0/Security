@@ -1,4 +1,4 @@
-# **README - Security Project Test Suite**
+# **Implementing Cryptographic Mechanisms for Data Security**
 
 ## **Overview**
 This project implements various security mechanisms such as **symmetric encryption**, **message authentication**, and **hybrid encryption** in Python. The provided test suite allows users to test and compare different cryptographic techniques using the **DES algorithm** (in different modes), **Message Authentication Codes (MACs)**, and **Hybrid Encryption** (using RSA for key exchange).
